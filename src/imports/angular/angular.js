@@ -53,7 +53,6 @@ function minErr(module, ErrorConstructor) {
       if (shiftedIndex < templateArgs.length) {
         return toDebugString(templateArgs[shiftedIndex]);
       }
-
       return match;
     });
 

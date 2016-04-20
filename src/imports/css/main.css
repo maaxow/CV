@@ -1,0 +1,31 @@
+/* @CHARSET "ISO-8859-1"; */
+
+.md-button-group > .md-button.buttonTableGroup {
+	margin: 0px;
+}
+.md-button-group > .md-button.buttonTableGroup.topLeft {
+	border-radius: 7px 0 0 0;
+}
+.md-button-group > .md-button.buttonTableGroup.botLeft {
+	border-radius: 0 0 0 7px;
+}
+.md-button-group > .md-button.buttonTableGroup.topRight{
+	border-radius: 0 7px 0 0;
+}
+.md-button-group > .md-button.buttonTableGroup.botRight {
+	border-radius: 0 0 7px 0;
+}
+.md-button-group > .md-button.buttonTableGroup.middle {
+	border-radius: 0;
+}
+
+.collapse-fixed {
+ 	position: absolute;
+	z-index: 15;
+	width: auto; 
+	height: auto;
+	background-color: rgb(255,255,255);
+	background-color: rgba(255,255,255,1);
+	border: 0px solid white;
+	border-radius: 7px 7px 7px 7px;
+}

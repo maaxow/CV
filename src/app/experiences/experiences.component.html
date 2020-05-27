@@ -1,0 +1,27 @@
+<div class="title-container">
+    <h1 class="title">Experiences</h1>
+</div>
+<div class="experiences-container">
+    <div *ngFor="let experience of experiences" class="experiences">
+        <mat-card>
+            <mat-card-title>
+                <img class="logo-company" src="{{experience.logo}}" alt="Company logo"/>
+                {{experience.name}} <h4><strong>{{experience.start |date: "MMMM yyyy"}}</strong> to <strong>{{experience.end ? experience.end : today | date: "MMMM yyyy"}}</strong></h4>
+            </mat-card-title>
+            <mat-card-content>
+                <mat-accordion>
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>Summary</mat-panel-title>
+                            <mat-panel-description>
+                                {{experience.summary}}
+                            </mat-panel-description>
+                        </mat-expansion-panel-header>
+                        <p>{{experience.details}}</p>
+                    </mat-expansion-panel>
+                </mat-accordion>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>
+

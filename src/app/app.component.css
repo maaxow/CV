@@ -1,0 +1,63 @@
+:host {
+  font-family: -apple-system, Roboto, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+  margin-top: 60px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-container {
+  background-color: #0f559b;
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 35%;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 2px;
+}
+.item-text {
+  margin: auto 10px;
+}
+
+.picture-of-me{
+  clip-path: ellipse(50% 38% at 51% 46%);
+  width: 50%;
+  
+}

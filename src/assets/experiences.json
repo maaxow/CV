@@ -1,0 +1,33 @@
+[{
+    "id": 1,
+    "name": "Stage chez SkySoft",
+    "start": "04/01/2014",
+    "end": "07/01/2014",
+    "company" : "SkySoft",
+    "location" : "Farnham, CANADA",
+    "logo" : "./assets/img/skysoft.png",
+    "summary": "Développement d’une interface web, J2EE, qui permet de gérer les documents internes d'un client",
+    "details": "Développement d'une interface web en JEE qui permet de gérer les documents internes chez un client. J'ai utiliser le framework css Metro UI pour avoir une applicatoin ressemblant aux tuiles windows 8. L'objectif principale était : \"Maximum 3 clics pour atteindre un document\", et il a été rempli. J'avais représenté la chaine de production pour pouvoir tré les documents en fonctions de telle ou telle machine de production. Ce qui a permit de faire gagner du temps de recherche. <br>Le client a longtemps utilisé mon application encore après mon départ."
+},
+{
+    "id": 2,
+    "name": "Stage chez CGI",
+    "start": "04/01/2015",
+    "end": "08/01/2015",
+    "company" : "CGI",
+    "location" : "Lille, FRANCE",
+    "logo" : "./assets/img/cgi.png",
+    "summary": "Participation au démarrage d’un projet de refonte d’application de Monitoring.",
+    "details": "Participation aux premiers développements d'un projet de refonte d'une application de Monitoring. <br>L'ancienne version atteignant ses limites en termes de technologies. C'est pourquoi la refonte totale était primordiale avec des technologies beaucoup plus récentes, comme Java 8, Spring 5, Elasticsearch, AngularJS. <br>Durant mon stage, j'ai pu apprendre en autonomie le framework AngularJS, ainsi qu'Elasticsearch pour la base de données, en créant les premières pages de l'application."
+},
+{
+    "id": 3,
+    "name": "CDI chez CGI",
+    "start": "07/01/2017",
+    "end": null,
+    "company" : "CGI",
+    "location" : "Lille, FRANCE",
+    "logo" : "./assets/img/cgi.png",
+    "summary": "Développement d’une interface web, J2EE, qui permet de gérer les documents internes d'un client",
+    "details": "Développement d'une interface web en JEE qui permet de gérer les documents internes chez un client. J'ai utiliser le framework css Metro UI pour avoir une applicatoin ressemblant aux tuiles windows 8. L'objectif principale était : \"Maximum 3 clics pour atteindre un document\", et il a été rempli. J'avais représenté la chaine de production pour pouvoir tré les documents en fonctions de telle ou telle machine de production. Ce qui a permit de faire gagner du temps de recherche. <br>Le client a longtemps utilisé mon application encore après mon départ."
+}]

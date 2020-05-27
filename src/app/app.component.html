@@ -1,0 +1,45 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <mat-icon>person</mat-icon>
+  <span style="margin: auto 5px;">{{me.firstname}} {{me.lastname}} </span>
+  <mat-divider [vertical]="true"></mat-divider>
+  <button mat-button class="primary" routerLink="/experiences"> Experiences</button>
+</div>
+
+<div class="body-container">
+  <!-- Sidebar -->
+  <div class="left-container">
+    
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img src="../assets/img/me.jpg" alt="Picture of me" class="picture-of-me"/>
+    </div>
+    
+    <div class="item">
+      <mat-icon>cake</mat-icon>
+      <span class="item-text"> {{me.birthday | date: "dd/MM/yyyy"}} ({{age()}} ans)</span>
+    </div>
+    <div class="item">
+      <mat-icon>location_on</mat-icon>
+      <span class="item-text">17 rue de verdun <br>59184, SAINGHIN-EN-WEPPES</span>
+    </div>
+    <div class="item">
+      <mat-icon>alternate_email</mat-icon>
+      <span class="item-text">maxime.rose@hotmail.fr</span>
+    </div>
+    <div class="item">
+      <span class="">Transport :</span>
+      <mat-icon style="margin: auto 2px">directions_walk</mat-icon>
+      <mat-icon style="margin: auto 2px">train</mat-icon>
+      <mat-icon style="margin: auto 2px">two_wheeler</mat-icon>
+      <mat-icon style="margin: auto 2px">drive_eta</mat-icon>
+      <mat-icon style="margin: auto 2px">tram</mat-icon>
+    </div>
+  </div>
+  <!-- Rest of body-->
+  <div class="main-container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+
+

@@ -1,19 +1,34 @@
-Détails :
+﻿Détails :
 Stage Skysoft : Avril 2014 - Juin 2014
+Context : Skysoft est une startup qui était implanté chez le client : Tarkett, site de production de revêtement de sols. 
+Le besoin initial était de faciliter l'acces à la base documentaire de l'entreprise. Certains étaient dans un outils externe, d'autres sur le réseau, et d'autres en local sur certains postes.
+Ma mission était de développer une application web qui centralise tous les documents, et l'objectif supplémentaire était qu'en 3 cliques, le client devait trouver le document recherché.
+
+Taches effectuées :
+* Conception du modèle de donnée pour la base en SQLServer.
+* 
+Environnement Technique :
 Développement d'une interface web en JEE qui permet de gérer les documents internes chez un client. J'ai utiliser le framework css Metro UI pour avoir une applicatoin ressemblant aux tuiles windows 8. L'objectif principale était : "Maximum 3 clics pour atteindre un document", et il a été rempli. J'avais représenté la chaine de production pour pouvoir tré les documents en fonctions de telle ou telle machine de production. Ce qui a permit de faire gagner du temps de recherche.
 Le client a longtemps utilisé mon application encore après mon départ.
 
 
 Stage CGI : Avril 2015 - Aout 2015
-Participation aux premiers développements d'un projet de refonte d'une application de Monitoring. 
+Context :
+Taches effectuées :
+Environnement Technique :Participation aux premiers développements d'un projet de refonte d'une application de Monitoring. 
 L'ancienne version atteignant ses limites en termes de technologies. C'est pourquoi la refonte totale était primordiale avec des technologies beaucoup plus récentes, comme Java 8, Spring 5, Elasticsearch, AngularJS. 
 Durant mon stage, j'ai pu apprendre en autonomie le framework AngularJS, ainsi qu'Elasticsearch pour la base de données, en créant les premières pages de l'application.
 
 Alternance : Sept 2015 - Sept 2017
-J'ai eu la chance de continuer sur le m^me sujet de stage que j'avais commencé, et j'ai donc pas me familiarisé petit a petit avec le backend en Java 8/Spring pour monter en compétence. J'ai donc pu participer sur plus de sujet à propos des évolutions de cete nouvelle version.
+Context :
+Taches effectuées :
+Environnement Technique :J'ai eu la chance de continuer sur le m^me sujet de stage que j'avais commencé, et j'ai donc pas me familiarisé petit a petit avec le backend en Java 8/Spring pour monter en compétence. J'ai donc pu participer sur plus de sujet à propos des évolutions de cete nouvelle version.
 En parallèle, je suis monté en compétence sur l'ancienne version, ce qui m'a permit de gérer des ticket de support pour aider l'équipe.
 
 CDI CGI: Sept 2017 - today
+Context :
+Taches effectuées :
+Environnement Technique :
 J'ai pu continuer sur les mêmes sujets que lorsque j'étais en alternance, mais avec plus de responsabilités, et d'interaction avec les clients.
 Mise en prod de la nouvelle version chez certains clients.
 Aujourd'hui, je suis le référent sur l'ancienne version, et je suis également en général le premier contact lorsqu'un client à un probleme sur la nouvelle version. Je suis également l'un des 2 lead developpeurs de l'application.
@@ -30,3 +45,7 @@ Avril - Août 2015 : 	Stage développeur, CGI, Lille
 Avril - Juin 2014 : 	Stage développeur web, Skysoft, CANADA
 				Développement d’une interface web, J2EE, qui permet de gérer les documents internes
 d’un client
+
+Context :
+Taches effectuées :
+Environnement Technique :

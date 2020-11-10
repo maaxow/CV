@@ -6,7 +6,8 @@
         <mat-card>
             <mat-card-title>
                 <img class="logo-company" src="{{experience.logo}}" alt="Company logo"/>
-                {{experience.name}} <h4><strong>{{experience.start |date: "MMMM yyyy"}}</strong> to <strong>{{experience.end ? experience.end : today | date: "MMMM yyyy"}}</strong></h4>
+                {{experience.name}} 
+                <h4><strong>{{experience.start | date: "MMMM yyyy"}}</strong> to <strong>{{(experience.end ? experience.end : today) | date: "MMMM yyyy"}}</strong> ({{calculateDuration(experience.start, experience.end)}})</h4>
             </mat-card-title>
             <mat-card-content>
                 <mat-accordion>

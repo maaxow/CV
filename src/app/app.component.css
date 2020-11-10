@@ -44,7 +44,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 35%;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: 17em;
 }
 
 .item {
@@ -59,5 +61,4 @@
 .picture-of-me{
   clip-path: ellipse(50% 38% at 51% 46%);
   width: 50%;
-  
 }

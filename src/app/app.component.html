@@ -1,7 +1,7 @@
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
   <mat-icon>person</mat-icon>
-  <span style="margin: auto 5px;">{{me.firstname}} {{me.lastname}} </span>
+  <span style="margin: auto 5px;" routerLink="/">{{me.firstname}} {{me.lastname}} </span>
   <mat-divider [vertical]="true"></mat-divider>
   <button mat-button class="primary" routerLink="/experiences"> Experiences</button>
 </div>
@@ -28,11 +28,10 @@
     </div>
     <div class="item">
       <span class="">Transport :</span>
-      <mat-icon style="margin: auto 2px">directions_walk</mat-icon>
-      <mat-icon style="margin: auto 2px">train</mat-icon>
-      <mat-icon style="margin: auto 2px">two_wheeler</mat-icon>
-      <mat-icon style="margin: auto 2px">drive_eta</mat-icon>
-      <mat-icon style="margin: auto 2px">tram</mat-icon>
+      <mat-icon [matTooltip]="'Marche'" style="margin: auto 2px">directions_walk</mat-icon>
+      <mat-icon matTooltip="Train" style="margin: auto 2px">train</mat-icon>
+      <mat-icon matTooltip="Moto"style="margin: auto 2px">two_wheeler</mat-icon>
+      <mat-icon matTooltip="Voiture" style="margin: auto 2px">drive_eta</mat-icon>
     </div>
   </div>
   <!-- Rest of body-->

@@ -1,15 +1,24 @@
 ﻿Détails :
+
 Stage Skysoft : Avril 2014 - Juin 2014
-Context : Skysoft est une startup qui était implanté chez le client : Tarkett, site de production de revêtement de sols. 
+
+# Context : 
+Skysoft est une startup qui était implanté chez le client : Tarkett, site de production de revêtement de sols. 
 Le besoin initial était de faciliter l'acces à la base documentaire de l'entreprise. Certains étaient dans un outils externe, d'autres sur le réseau, et d'autres en local sur certains postes.
 Ma mission était de développer une application web qui centralise tous les documents, et l'objectif supplémentaire était qu'en 3 cliques, le client devait trouver le document recherché.
+J'étais seul sur ce projet, mais j'avais le soutien de mon tuteur, ainsi qu'un expert Java, et un expert en base de donnée. 
+Il n'y avait pas de méthodologie de gestion de projet mis en place, je suivais les tâches que mon tuteur me donnait.
+En 3 mois, j'ai su développer l'application en entier, il ne restait plus que la mise en production. Elle a été réalisé quelques mois apres la fin de mon stage, et l'application a été utilisé plusieurs années.
 
-Taches effectuées :
+# Tâches effectuées :
 * Conception du modèle de donnée pour la base en SQLServer.
-* 
-Environnement Technique :
-Développement d'une interface web en JEE qui permet de gérer les documents internes chez un client. J'ai utiliser le framework css Metro UI pour avoir une applicatoin ressemblant aux tuiles windows 8. L'objectif principale était : "Maximum 3 clics pour atteindre un document", et il a été rempli. J'avais représenté la chaine de production pour pouvoir tré les documents en fonctions de telle ou telle machine de production. Ce qui a permit de faire gagner du temps de recherche.
-Le client a longtemps utilisé mon application encore après mon départ.
+* Rédaction de procédures stockées
+* Développment du back qui été de petite envergure : principalement interface entre le front et la base de donnée
+* Développement du front avec Metro UI
+
+# Environnement Technique :
+Java EE, Javascript, Metro UI (CSS Framework), SQLServer, Netbeans, SVN
+
 
 
 Stage CGI : Avril 2015 - Aout 2015

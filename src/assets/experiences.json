@@ -30,4 +30,14 @@
     "logo" : "./assets/img/cgi.png",
     "summary": "Développement d’une interface web, J2EE, qui permet de gérer les documents internes d'un client",
     "details": "Développement d'une interface web en JEE qui permet de gérer les documents internes chez un client. J'ai utiliser le framework css Metro UI pour avoir une applicatoin ressemblant aux tuiles windows 8. L'objectif principale était : \"Maximum 3 clics pour atteindre un document\", et il a été rempli. J'avais représenté la chaine de production pour pouvoir tré les documents en fonctions de telle ou telle machine de production. Ce qui a permit de faire gagner du temps de recherche. <br>Le client a longtemps utilisé mon application encore après mon départ."
+},{
+    "id": 4,
+    "name": "Mission Freelance chez Axa, en collaboration avec Davidson",
+    "start": "15/02/2021",
+    "end": "31/06/2021",
+    "company" : "Axa",
+    "location" : "Lille, FRANCE",
+    "logo" : null,
+    "summary": "Développement sur l'application de gestion de Sinistre sur la partie Auto de Fréquence",
+    "details" : "J’ai pu participer au développement sur l’application qui gère les sinistres. <br>Je faisais partie de la Tribu (équipe au sens large) Sinistre de Fréquence, et dans la Squad (plus petite équipe) Auto, qui s’occupe uniquement de la gestion des sinistres liés à l’automobile.<br>Nous étions environ 15 personnes dans cette Squad, entre développeurs, testeurs et business analyste. Au niveau de la Tribu, nous étions environ 60 personnes.<br>L’organisation et la communication était le maitre mot."
 }]

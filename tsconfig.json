@@ -20,5 +20,8 @@
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
-  }
+  },
+  "paths": {
+    "tslib" : ["node_modules/tslib/tslib.d.ts"]
+  },
 }

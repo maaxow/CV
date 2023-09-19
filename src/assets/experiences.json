@@ -24,7 +24,7 @@
     "id": 3,
     "name": "CDI chez CGI",
     "start": "07/01/2017",
-    "end": null,
+    "end": "31/12/2020",
     "company" : "CGI",
     "location" : "Lille, FRANCE",
     "logo" : "./assets/img/cgi.png",
@@ -37,7 +37,7 @@
     "end": "31/06/2021",
     "company" : "Axa",
     "location" : "Lille, FRANCE",
-    "logo" : null,
+    "logo" : "./assets/img/axa.png",
     "summary": "Développement sur l'application de gestion de Sinistre sur la partie Auto de Fréquence",
     "details" : "J’ai pu participer au développement sur l’application qui gère les sinistres. <br>Je faisais partie de la Tribu (équipe au sens large) Sinistre de Fréquence, et dans la Squad (plus petite équipe) Auto, qui s’occupe uniquement de la gestion des sinistres liés à l’automobile.<br>Nous étions environ 15 personnes dans cette Squad, entre développeurs, testeurs et business analyste. Au niveau de la Tribu, nous étions environ 60 personnes.<br>L’organisation et la communication était le maitre mot."
 },{
@@ -47,7 +47,7 @@
     "end": null,
     "company" : "Kiabi",
     "location" : "Hem, FRANCE",
-    "logo" : null,
+    "logo" : "./assets/img/kiabi.png",
     "summary": "Développement sur les applications de gestion de Stock",
     "details" : "Au sein de la Squad Prévision/Allocation (Prevalloc), j'ai pu participer aux développements (évolutions et corrections) des applications qui permettent de gérer les prévisions et les allocations de stock au sein de Kiabi dans le monde. J'ai également pu apporter mon aide sur le run (rôle tournant, 1 semaine toutes les 6 semaines) <br>J'ai pu monter en compétence sur Java 17, Spring Boot 3, Angular 13+, PLSQL. Ce qui m'a permis d'être aujourd'hui techlead, référent Front au sein de la Tribe Stock."
 }]
